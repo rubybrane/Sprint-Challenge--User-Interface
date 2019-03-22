@@ -200,14 +200,32 @@ header nav a {
     background: dodgerblue;
 } 
 
-.middle-content-about .text-container .about .btn{
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.services .card{
+    padding: 20px;
+    width: 46%;
+}
+.services .card .btn{
     padding: 10px 40px;
     margin-top: 20px;
     cursor: pointer;
     background: white;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
 }
+
+
+.middle-content-about .text-container .about .btn {
+    background: black;
+    color: white;
+}
+
 
 .bottom-content {
     display: flex;

@@ -72,6 +72,12 @@ p {
     border: 1px solid red;
 }
 
+.container .about-page {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -104,8 +110,16 @@ header nav a {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-
 }
+
+.top-content .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
 
 .top-content .text-container {
     width: 48%;

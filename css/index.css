@@ -69,6 +69,39 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    border: 1px solid red;
+}
+
+.container .about-page {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: baseline;
+    
+}
+header .logo {
+    margin-right: 155px;
+}
+header nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: #000;
+    text-decoration: none;
 }
 
 .top-content {
@@ -79,10 +112,25 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content-about .text-container .about {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px; 
+ 
 }
 
 .middle-content {
@@ -104,13 +152,53 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box:nth-of-type(1){
+    background: teal;
+} 
+
+.middle-content .boxes .box:nth-of-type(2){
+    background: gold;
+} 
+
+.middle-content .boxes .box:nth-of-type(3){
+    background: cadetblue;
+} 
+
+.middle-content .boxes .box:nth-of-type(4){
+    background: coral;
+} 
+
+.middle-content .boxes .box:nth-of-type(5){
+    background:crimson;
+} 
+
+.middle-content .boxes .box:nth-of-type(6){
+    background: forestgreen;
+} 
+
+.middle-content .boxes .box:nth-of-type(7){
+    background: darkorchid;
+} 
+
+.middle-content .boxes .box:nth-of-type(8){
+    background: hotpink;
+} 
+
+.middle-content .boxes .box:nth-of-type(9){
+    background: indigo;
+} 
+
+.middle-content .boxes .box:nth-of-type(10){
+    background: dodgerblue;
+} 
 
 .bottom-content {
     display: flex;

@@ -200,6 +200,15 @@ header nav a {
     background: dodgerblue;
 } 
 
+.middle-content-about .text-container .about .btn{
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;

@@ -72,11 +72,11 @@ p {
     
 }
 
-.container .about-page {
+/* .container .about-page {
     width: 800px;
     margin: 0 auto;
 }
-
+ */
 header {
     display: flex;
     flex-wrap: wrap;
@@ -87,18 +87,20 @@ header {
     
 }
 header .logo {
-    margin-right: 155px;
+    margin-right: 150px;
 }
 header nav{
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 5%;
-    font-size: 14px;
+    padding: 10px 5%;
+    font-size: 20px;
 }
 
 header nav a {
+    margin-left: 10px;
+    margin-right: 10px;
     color: #000;
     text-decoration: none;
 }
@@ -203,7 +205,7 @@ header nav a {
 .services {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
 }
 
@@ -214,6 +216,9 @@ header nav a {
     border-bottom: 1px dashed black;
 }
 
+.services .card img{
+    width: 100%;
+}
 .services h1 {
     font-size: 26px;
     margin: 10px 0;

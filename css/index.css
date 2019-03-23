@@ -151,6 +151,7 @@ header nav a {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -164,10 +165,23 @@ header nav a {
 
 .middle-content .boxes .box:nth-of-type(1){
     background: teal;
+    animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: teal;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+
+
 } 
 
 .middle-content .boxes .box:nth-of-type(2){
     background: gold;
+    
 } 
 
 .middle-content .boxes .box:nth-of-type(3){

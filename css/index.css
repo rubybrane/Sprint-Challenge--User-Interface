@@ -69,13 +69,12 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    border: 1px solid red;
+    
 }
 
 .container .about-page {
     width: 800px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 header {
@@ -115,6 +114,7 @@ header nav a {
 .top-content-about {
     display: flex;
     flex-wrap: wrap;
+    padding: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -209,17 +209,31 @@ header nav a {
 
 .services .card{
     padding: 20px;
-    width: 46%;
+    width: 45%;
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.services h1 {
+    font-size: 26px;
+    margin: 10px 0;
 }
 .services .card .btn{
+    font-size: 20px;
     padding: 10px 40px;
     margin-top: 20px;
     cursor: pointer;
     background: white;
     border-radius: 5px;
     border: 2px solid black;
+
 }
 
+
+.services .card .btn:hover {
+    background: black;
+    color: white;
+}
 
 .middle-content-about .text-container .about .btn {
     background: black;
@@ -233,6 +247,14 @@ header nav a {
     justify-content: space-around;
 }
 
+.bottom-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: baseline;
+}
 .bottom-content .text-container {
     padding-right: 4%;
 }

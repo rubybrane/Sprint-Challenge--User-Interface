@@ -69,15 +69,14 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-    border: 1px solid red;
+    
 }
 
 .container .about-page {
     width: 800px;
     margin: 0 auto;
-    border: 1px solid red;
 }
-
+ 
 header {
     display: flex;
     flex-wrap: wrap;
@@ -88,18 +87,20 @@ header {
     
 }
 header .logo {
-    margin-right: 155px;
+    margin-right: 150px;
 }
 header nav{
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 5%;
-    font-size: 14px;
+    padding: 10px 5%;
+    font-size: 20px;
 }
 
 header nav a {
+    margin-left: 10px;
+    margin-right: 10px;
     color: #000;
     text-decoration: none;
 }
@@ -115,6 +116,7 @@ header nav a {
 .top-content-about {
     display: flex;
     flex-wrap: wrap;
+    padding: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -149,6 +151,7 @@ header nav a {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -162,10 +165,20 @@ header nav a {
 
 .middle-content .boxes .box:nth-of-type(1){
     background: teal;
+    animation: pulse 5s infinite;
+}
+    @keyframes pulse {
+  0% {
+    background-color: teal;
+  }
+  100% {
+    background-color: #FF4136;
+  }
 } 
 
 .middle-content .boxes .box:nth-of-type(2){
     background: gold;
+    
 } 
 
 .middle-content .boxes .box:nth-of-type(3){
@@ -200,12 +213,64 @@ header nav a {
     background: dodgerblue;
 } 
 
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.services .card {
+    padding: 20px;
+    width: 45%;
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+}
+
+.services .card img{
+    width: 100%;
+}
+.services h1 {
+    font-size: 26px;
+    margin: 10px 0;
+}
+.services .card .btn{
+    font-size: 20px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid black;
+
+}
+
+
+.services .card .btn:hover {
+    background: black;
+    color: white;
+}
+
+.middle-content-about .text-container .about .btn {
+    background: black;
+    color: white;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
+.bottom-content-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: baseline;
+}
 .bottom-content .text-container {
     padding-right: 4%;
 }

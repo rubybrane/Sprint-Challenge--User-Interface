@@ -72,11 +72,11 @@ p {
     
 }
 
-/* .container .about-page {
+.container .about-page {
     width: 800px;
     margin: 0 auto;
 }
- */
+ 
 header {
     display: flex;
     flex-wrap: wrap;
